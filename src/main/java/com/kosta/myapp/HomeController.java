@@ -33,9 +33,9 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		model.addAttribute("myname", "JeoungJin");
-		model.addAttribute("myname2", "Á¤Áø");
+		model.addAttribute("myname2", "mingi");
 		
-		return "home"; //viewÀÌ¸§ÀÌ´Ù. /WEB-INF/views/home.jsp
+		return "home"; //viewï¿½Ì¸ï¿½ï¿½Ì´ï¿½. /WEB-INF/views/home.jsp
 	}
 	
 }
